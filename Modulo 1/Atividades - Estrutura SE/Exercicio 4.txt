@@ -1,0 +1,94 @@
+
+    //ex1
+
+programa {
+  funcao inicio() {
+    cadeia nome 
+
+    escreva("Olá, Digite o seu nome: ")
+    leia(nome)
+
+    escreva("\n Olá " + nome + " Seja bem vindo ao sistema")
+  }
+} 
+
+    // ex2 
+
+programa {
+  funcao inicio() {
+    cadeia nome
+    inteiro idade
+
+    escreva("Olá, Digite seu nome: ")
+    leia(nome)
+    escreva("\n")
+    escreva("Digite sua idade: ")
+    leia(idade)
+    escreva("\n")
+    escreva("Seu nome é "+nome+" e sua idade é " + idade + " anos")
+
+
+  }
+}
+
+    // ex3 
+
+programa {
+  funcao inicio() {
+    inteiro dia,mes,ano
+    escreva("Olá, Digite o mês que você nasceu: ")
+    leia(mes)
+    escreva("\n")
+    escreva("Digite o dia que você nasceu: ")
+    leia(dia)
+    escreva("\n")
+    escreva("Digite o do ano que você nasceu: ")
+    leia(ano)
+    escreva("\n")
+    escreva("Você nasceu no dia "+dia+" do mês "+mes+" do ano "+ano)
+  }
+}
+
+
+    //ex4
+
+programa {
+  funcao inicio() {
+    inteiro n6 
+    inteiro n7 
+    inteiro mult, som
+    escreva("digite o primero numero: ")
+    leia(n6)
+    escreva("\n")
+    escreva("digite o segundo numero: ")
+    leia(n7)
+    escreva("\n")
+    mult = n6 * n7
+    escreva("Multiplica��o = ", mult)
+    escreva("\n")
+
+    som = (n6 / 2) + n7
+    escreva("Soma =  ", som)
+    escreva("\n")
+  }
+}
+
+    //ex5
+
+programa {
+  funcao inicio() {
+    cadeia nome
+    inteiro idade,dia
+
+    escreva("Olá, Digite seu nome: ")
+    leia(nome)
+    escreva("\n")
+    escreva("Digite sua idade: ")
+    leia(idade)
+    escreva("\n")
+
+    dia = idade * 365
+    escreva(nome + " você esta vivo a " + dia + " dias")
+  }
+}
+

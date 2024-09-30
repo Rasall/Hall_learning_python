@@ -1,0 +1,46 @@
+
+    //ex1
+
+programa {
+	funcao inicio() {
+		
+		
+		inteiro menu
+		
+		faca{
+		    escreva("----- Menu ----- \n ")
+		    escreva("0) primeira opcao \n")
+		    escreva("1) segunda opcao \n")
+		    leia(menu)
+		}enquanto(menu == 0 ou menu == 1)
+		
+		escreva("SAIU DA ESTRUTURA FACA ENQUANTO")
+	}
+}
+
+    // ex2 
+
+programa {
+	funcao inicio() {
+		inteiro senha
+		
+		faca{
+		    escreva("Digite sua senha")
+		    leia(senha)
+		    se(senha == 1234){
+		        escreva("Senha correta \n")
+		    }senao{
+		        escreva("Senha Incorreta \n")
+		    }
+		}enquanto(senha != 1234)
+		
+		escreva("Bem vindo ao sistema")
+	}
+}
+
+
+		    escreva("a media é maior que a nota 3")
+		}
+	}
+}
+

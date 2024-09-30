@@ -1,0 +1,73 @@
+
+    //ex1
+
+programa {
+  funcao inicio() {
+    //ex1
+    inteiro numero
+    escreva("Olá digite um numero: " )
+    leia(numero)
+    se(numero >= 0){
+      escreva("O numero digitado é igual ou maior a 0")
+    }
+    escreva("\n")}}
+
+    // ex2 
+programa {
+	funcao inicio() {
+		inteiro idade
+		
+		escreva("Olá digite sua idade")
+		leia(idade)
+		
+		se(idade >= 18){
+		    escreva("Voce é maior de idade")
+		}senao{
+		    escreva("Voce é MENOR DE IDADE")
+		}
+	}
+}
+
+    // ex3 
+
+programa {
+  funcao inicio() {
+    inteiro n1, n2, soma
+    escreva("Digite o primeiro valor: ")
+    leia(n1)
+    escreva("Digite o segundo valor: ")
+    leia(n2)
+    soma=n1+n2
+    se(soma >= 50){
+      escreva("Resultado é maior a 50")
+  }
+}
+
+
+    //ex4
+
+
+programa {
+	funcao inicio() {
+		inteiro nota1, nota2, nota3
+		real media
+		
+		escreva("Digite a sua primeira nota: ")
+		leia(nota1)
+		escreva("Digite a sua segunda nota: ")
+		leia(nota2)
+		escreva("Digite a terceira nota: ")
+		leia(nota3)
+		
+		media = (nota1 + nota2 + nota3)/3
+		
+		escreva("sua media é igual a "+ media)
+		escreva("\n")
+		se(media < nota3){
+		    escreva("a media é menor que a nota 3")
+		}senao{
+		    escreva("a media é maior que a nota 3")
+		}
+	}
+}
+

@@ -1,0 +1,40 @@
+//ex1
+
+programa {
+  funcao inicio() {
+    escreva("Estou criando meu primeiro codigo")
+  }
+}
+
+//ex2
+
+programa {
+  funcao inicio() {
+    escreva("Olá meu nome é Rafael")
+  }
+}
+
+//ex3
+
+programa {
+  funcao inicio() {
+    escreva("Olá usuário \nSeja bem vindo!")
+  }
+}
+
+//ex4
+
+programa {
+  funcao inicio() {
+    escreva("Estou realizando o curso da SoulCode")
+
+  }
+}
+
+//ex5
+
+programa {
+  funcao inicio() {
+    escreva("Estou aprendendo como mostrar mensagem para o usuário")
+  }
+}

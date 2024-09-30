@@ -1,0 +1,115 @@
+
+    //ex1
+
+programa {
+	funcao inicio() {
+		inteiro cont = 0
+		
+		enquanto(cont <=10){
+		    escreva("Hello World! \n")
+		    
+		    cont = cont + 1
+		}
+	}
+}
+
+    // ex2 
+
+programa {
+	funcao inicio() {
+		inteiro cont = 2 
+		
+		enquanto(cont > 1){
+		    escreva("Digite um numero até acertar, para sair da execucao")
+		    leia(cont)
+		}
+		
+		escreva("Sai da estrutura de repeticao")
+	}
+}
+    // ex3 
+
+programa {
+	funcao inicio() {
+		inteiro contador = 99 , n1, n2
+		real calculo
+		
+		escreva("Digite um numero")
+		leia(n1)
+		escreva("Digite outro numero")
+		leia(n2)
+		
+		enquanto(contador != 0){
+		    limpa()
+		    escreva("----- Menu ------ \n")
+		    escreva("1) Soma \n")
+		    escreva("2) subtracao \n")
+            escreva("3) multiplicacao \n")
+            escreva("4) Divisao \n")
+            escreva(" 0 - Para sair \n")
+            leia(contador)
+            
+            escolha(contador){
+                caso 1:
+                    calculo = n1 + n2
+                    escreva("O resultado da soma é " + calculo + "\n")
+                    pare
+                caso 2: 
+                    calculo = n1 - n2
+                    escreva("O resultado da subtracao é " + calculo + "\n")
+                    pare
+                caso 3: 
+                    calculo = n1 / n2
+                    escreva("O resultado da divisao é " + calculo + "\n")
+                    pare
+                caso 4: 
+                    calculo = n1 * n2
+                    escreva("O resultado da multiplicacao é " + calculo + "\n")
+                    pare
+                caso contrario: 
+                    escreva("Valor nao tem nas opcoes")
+                    
+            }
+            
+            
+            
+		}
+		
+	}
+}
+
+
+    // ex4 
+
+programa
+{
+	funcao inicio() 
+	{
+		inteiro cont = 1
+		
+		real numero, media, soma = 0.0
+
+		// Laço que verifica se já foram informados 10 valores
+		
+		enquanto(cont <= 10) 
+		{
+			limpa()
+			escreva("Digite o ", cont, "é número: ")
+			leia(numero)
+			
+			soma = soma + numero  
+			cont = cont + 1  
+		}
+		
+		media = soma / 10
+		
+		limpa()
+		escreva("A média dos números é: ", media, "\n")
+	}
+}
+
+		    escreva("a media é maior que a nota 3")
+		}
+	}
+}
+

@@ -1,0 +1,72 @@
+
+    //ex1
+
+programa {
+	funcao inicio() {
+		
+		inteiro contador
+		
+		para(contador = 0 ; contador <= 10 ; contador++){
+		    escreva(contador + "Estou estudando na SOULCODE \n")
+		}
+	}
+}
+
+    // ex2 
+
+programa {
+	funcao inicio() {
+		inteiro contador
+		
+		para(contador = 1 ; contador <= 50 ; contador++){
+		    escreva(contador , " \n ")
+		}
+	}
+}
+
+    // ex3 
+
+programa {
+	funcao inicio() {
+		inteiro contador
+		
+		para(contador = 1 ; contador <= 100 ; contador++){
+		    se(contador%2 == 0){
+		        escreva(contador,"\n")
+
+		    }
+		}
+	}
+}
+
+
+    //ex4
+
+programa {
+	funcao inicio() {
+		inteiro cont , resultado , numero
+		
+		escreva("Digite um numero para saber a tabuada")
+		leia(numero)
+		
+		para(cont = 1; cont <= 10 ; cont++){
+		    resultado = numero * cont
+		    escreva("Calculo "+ numero + " X " + cont + " = " + resultado + "\n")
+		}
+	}
+}
+
+    //ex5
+
+programa {
+	funcao inicio() {
+		inteiro contador
+		
+		para(contador = 1 ; contador <= 100 ; contador++){
+		    se(contador%2 != 0){
+		        escreva(contador , "\n")
+		    }
+		}
+	}
+}
+

@@ -1,0 +1,132 @@
+
+    //ex1
+
+programa {
+	funcao inicio() {
+		inteiro op
+		
+		escreva("---- Menu ------ \n")
+		escreva("1) Elogio \n")
+		escreva("2) Ofensa \n")
+		escreva("3) Sair \n")
+		
+		escreva("Digite a opcao desejada")
+		leia(op)
+		
+		escolha(op){
+		    caso 1: 
+		        escreva("Voce é lindo")
+		        pare
+		    caso 2:
+		        escreva("Voce é feio")
+		        pare
+		    caso 3:
+		        escreva("Tchau, até mais")
+		        pare
+		    caso contrario:
+		        escreva("Opcao invalida")
+		}
+	}
+}
+    // ex2 
+
+programa {
+	funcao inicio() {
+		inteiro op, n1, n2, soma, multi, idade
+		
+		escreva("----- Menu ------ \n")
+		escreva("1) Soma \n")
+		escreva("2) Multiplicacao \n")
+		escreva("3) Verificar idade \n")
+		
+		escreva("Digite o que voce quer fazer")
+		leia(op)
+		
+		escolha(op){
+		    caso 1: 
+		        escreva("Digite um numero")
+		        leia(n1)
+		        escreva("Digite outro numero")
+		        leia(n2)
+		        soma = n1 + n2
+		        escreva("O resultado da soma é: "+ soma)
+		        pare
+		    caso 2: 
+		        escreva("Digite um numero")
+		        leia(n1)
+		        escreva("Digite outro numero")
+		        leia(n2)
+		        multi = n1 * n2
+		        escreva("O resultado da multiplicacao é: "+ multi)
+		        pare
+		    caso 3: 
+		        escreva("Digite sua idade")
+		        leia(idade)
+		        se(idade >= 18){
+		            escreva("Voce é maior de idade")
+		        }senao{
+		            escreva("Voce é menor de idade")
+		        }
+		        pare
+		    caso contrario:
+		        escreva("Opcao invalida")
+		}
+		
+	}
+}
+
+    // ex3 
+
+programa {
+	funcao inicio() {
+		inteiro op, n1,n2
+		real calculo
+		
+		escreva("---- Calculadora ------ \n")
+		escreva("Digite um numero")
+		leia(n1)
+		escreva("digite outro numero")
+		leia(n2)
+		
+		escreva(" ----- qual calculo voce deseja realizar ? ----- \n")
+		escreva("1) soma \n")
+		escreva("2) Subtracao \n")
+		escreva("3) Divisao \n")
+		escreva("4) Multiplicacao\n")
+		
+		escreva("Digite a opcao desejada")
+		leia(op)
+		
+		escolha(op){
+		    caso 1: 
+		        calculo = n1 + n2
+		        escreva("O resultado da SOMA é: " + calculo)
+		        pare
+		    caso 2: 
+		        calculo = n1 - n2
+		        escreva("O resultado da SUBTRACAO é: " + calculo)
+		        pare
+		    caso 3: 
+		        calculo = n1 / n2
+		        escreva("O resultado da divisao é: " + calculo)
+		        pare
+		    caso 4: 
+		        calculo = n1 * n2
+		        escreva("O resultado da multiplicacao é: " + calculo)
+		        pare
+		    caso contrario:
+		        escreva("Voce digitou uma opcao errada")
+		}
+		
+		
+	}
+}
+
+
+
+
+		    escreva("a media é maior que a nota 3")
+		}
+	}
+}
+

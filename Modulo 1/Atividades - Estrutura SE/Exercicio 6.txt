@@ -1,0 +1,69 @@
+
+    //ex1
+
+programa {
+  funcao inicio() {
+    inteiro numero
+    escreva("Olá digite um numero: " )
+    leia(numero)
+    se(numero > 0){
+      escreva("O numero digitado é positivo")
+    }senao se (numero < 0){
+      escreva("O numero digitado  é negativo")
+    }senao{
+      escreva("O numero digitado  é 0")
+    }
+  }
+}
+    // ex2 
+
+programa {
+	funcao inicio() {
+		inteiro n1, n2
+		
+		escreva("Digite um numero: ")
+		leia(n1)
+		escreva("Digite outro numero: ")
+		leia(n2)
+		
+		se(n1 == n2){
+		    escreva("Os numeros digitados sao iguais")
+		}senao se(n1 > n2){
+		    escreva("O primeiro numero digitado é maior que o segundo")
+		}senao{
+		    escreva("O segundo numero digitado é maior que o primeiro")
+		}
+	}
+}
+
+    // ex3 
+
+programa {
+	funcao inicio() {
+		inteiro n1,n2,n3
+		
+		escreva("Digite o primeiro numero: ")
+		leia(n1)
+		escreva("Digite o segundo numero: ")
+		leia(n2)
+		escreva("Digite o terceiro numero: ")
+		leia(n3)
+		
+		se(n1 > n2 e n2 < n3){
+		    escreva(" O primeiro numero digitado é O maior")
+		}senao se(n2 > n1 e n1 < n3){
+		    escreva("O segundo numero digitado é o maior")
+		}senao{
+		    escreva("o terceiro numero digitado é o maior")
+		}
+		
+	}
+}
+
+
+
+		    escreva("a media é maior que a nota 3")
+		}
+	}
+}
+
